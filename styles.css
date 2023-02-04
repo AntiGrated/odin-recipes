@@ -5,7 +5,7 @@
     padding: 15px;
     color: white;
 }
-body {
+body[class="indexcss"] {
     background-image: url(/images/rec\ img.jpg);
     height: 100%;
     background-position: center;
@@ -19,11 +19,11 @@ body {
     margin: auto;
     padding: 9px;
 }
-li {
+li[class="tables"] {
     margin-bottom: 25px;
     font-size: 40px;
 }
-ul {
+ul[class="tables"] {
 text-align: center;
 }
 .rata {
@@ -36,4 +36,53 @@ text-align: center;
 }
 a {
     color: black;
+}
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+}
+hr {
+    height: 2.5px;
+    background-color: black;
+}
+h2, h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}.antigrated {
+    display: block;
+    max-width: 30%;
+    background-color: rgb(127, 77, 207);
+    height: 20px;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: 0.15s;
+    text-align: center;
+    padding: 6px;
+}
+.antigrated:hover {
+    color: rgb(0, 0, 00);
+    background-color: bisque;
+}
+
+.container {
+    height: 40px;
+    display: inline-block;
+}
+.sinigangimg {
+    height: 360px;
+}
+.adobogif {
+    height: 399px;
+}
+.champoimg {
+    width: 460px;
+}
+li {
+    font-size: larger;
 }
