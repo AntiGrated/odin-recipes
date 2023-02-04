@@ -2,22 +2,32 @@
     background: rgb(49,46,62);
     background: linear-gradient(74deg, rgba(49,46,62,1) 46%, rgba(77,77,115,1) 100%);
     text-align: center;
-    padding: 15px;
+    padding: 8px;
     color: white;
 }
+.rataimg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.rata {
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6);
+    display: block;
+    margin: auto;
+    width: min(70%, 500px);
+}
 body[class="indexcss"] {
-    background-image: url(/images/rec\ img.jpg);
+    background-image: url(https://img.freepik.com/premium-photo/ketogenic-diet-food-chicken-fillet-quinoa-avocado-avocado-feta-cheese-quail-eggs-strawberries-nuts-lettuce-healthy-meal-concept-vertical-image-top-view-place-text_114941-2993.jpg?w=2000);
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .mid-bg {
     background-color: rgba(201, 202, 212, 0.856);
-    width: 60%;
+    width: 100%;
     border-radius: 5px;
     margin: auto;
-    padding: 9px;
 }
 li[class="tables"] {
     margin-bottom: 25px;
@@ -26,14 +36,7 @@ li[class="tables"] {
 ul[class="tables"] {
 text-align: center;
 }
-.rata {
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6);
-    display: block;
-    margin: 0 auto 0 auto;
-    width: min(70%, 500px);
-    border-radius: 10px;
-    
-}
+
 a {
     color: black;
 }
