@@ -1,0 +1,18 @@
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+}
+hr {
+    height: 2.5px;
+    background-color: black;
+}
+h2, h3 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+li {
+    font-size: larger;
+}

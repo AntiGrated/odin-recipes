@@ -21,7 +21,19 @@ body {
 }
 li {
     margin-bottom: 25px;
+    font-size: 40px;
 }
 ul {
 text-align: center;
+}
+.rata {
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6)
+    display: block;
+    margin: 0 auto 0 auto;
+    width: min(70%, 500px);
+    border-radius: 10px;
+    
+}
+a {
+    color: black;
 }
