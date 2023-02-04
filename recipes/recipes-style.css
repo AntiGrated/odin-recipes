@@ -16,3 +16,18 @@ p {
 li {
     font-size: larger;
 }
+.backhome {
+    display: block;
+    background-color: rgb(127, 77, 207);
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: 0.15s;
+}
+.backhome:hover {
+    color: rgb(0, 0, 00);
+    background-color: bisque;
+}
