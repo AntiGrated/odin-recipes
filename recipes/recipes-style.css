@@ -16,18 +16,21 @@ p {
 li {
     font-size: larger;
 }
-.backhome {
+.antigrated {
     display: block;
+    max-width: 30%;
     background-color: rgb(127, 77, 207);
-    height: 40px;
-    border-radius: 20px;
+    height: 20px;
+    border-radius: 10px;
     margin: auto;
     cursor: pointer;
     color: white;
     border: none;
     transition: 0.15s;
+    text-align: center;
+    padding: 6px;
 }
-.backhome:hover {
+.antigrated:hover {
     color: rgb(0, 0, 00);
     background-color: bisque;
 }
