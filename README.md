@@ -1,3 +1,4 @@
 # odin-recipes
 Odin Project Foundation Course
-This is my initial commit for the free online course of Web Development from The Odin Project!
+This is my personal HTML/CSS code for THE ODIN PROJECT "Odin-Recipe" Course!
+Im still learning and have a long way to go! Loving it!
